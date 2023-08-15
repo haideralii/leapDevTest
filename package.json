@@ -1,0 +1,23 @@
+{
+  "name": "leap-dev-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "Author": "Haider Ali",
+  "scripts": {
+    "test": "env-cmd -f .env.dev npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "ajv": "^8.12.0",
+    "env-cmd": "^10.1.0",
+    "log4j": "^1.0.0",
+    "log4js": "^6.9.1"
+  }
+}
